@@ -64,7 +64,7 @@ def parse_detail(response):
 
 
 if __name__ == '__main__':
-    i=1
+    i=28
     while(i<=1):
         start_urls = "https://www.hindawi.com/journals/cric/contents/"+str(i)+"/"
         parse(start_urls)
